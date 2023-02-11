@@ -296,6 +296,10 @@ img {
   border-radius: 2px;
 }
 
+.modal-form-checkbox:focus + .modal-form-checkbox-label .checkbox-icon-wrap {
+  border-color: var(--primary-brand);
+}
+
 .checkbox-icon {
   position: absolute;
   top: 50%;
@@ -524,7 +528,7 @@ img {
 
   color: var(--color-white);
   font-weight: 700;
-  width: 319px;
+  max-width: 318px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -1167,7 +1171,7 @@ img {
 
   .hero-title {
     margin-bottom: 40px;
-    width: 496px;
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
   }
